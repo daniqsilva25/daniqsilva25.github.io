@@ -1,0 +1,58 @@
+site_name: Daniel Queirós da Silva, Ph.D.
+site_url: https://daniqsilva25.github.io
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: custom
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: custom
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: custom
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to system preference
+
+  font: false
+
+  language: en
+
+  logo: images/dqs-icon.drawio.png
+  favicon: images/dqs-icon.drawio.png
+
+  features:
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.expand
+    - toc.follow
+    - toc.integrate
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/daniqsilva25
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/daniel-queiros-silva
+    - icon: fontawesome/brands/discord
+      link: https://www.discord.com/users/daniqsilva
