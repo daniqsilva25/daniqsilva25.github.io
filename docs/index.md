@@ -1,3 +1,3 @@
 # Daniel Queirós da Silva, Ph.D.
 
-Hello, World!
+Hello, world!
