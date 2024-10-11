@@ -56,3 +56,12 @@ extra:
       link: https://www.linkedin.com/in/daniel-queiros-silva
     - icon: fontawesome/brands/discord
       link: https://www.discord.com/users/daniqsilva
+
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Education: education.md
+  - Conferences: events.md
+  - Awards: awards.md
+  - Supervising: supervising.md
+  - Projects: projects.md
