@@ -29,7 +29,7 @@
 ___
 
 
-### <a href="https://www.isep.ipp.pt" target="_blank">Instituto Superior de Engenharia do Porto (ISEP)</a>
+### <a href="https://www.isep.ipp.pt" target="_blank">School of Engineering, Polytechnic of Porto (ISEP)</a>
 
 <div style="display: flex;">
   <div style="flex: 1;">

@@ -4,7 +4,7 @@
 
 <div style="display: flex; align-items: center;">
   <img src="./images/pic_Daniel.jpg" alt="Daniel's picture" style="width: 300px; margin-right: 50px;">
-  <p>Daniel Queirós da Silva was born in Ermesinde, Porto, Portugal, in 1997. He obtained the M.Sc. degree in Electrical and Computer Engineering from the Faculty of Engineering of the University of Porto (FEUP) in 2020, and the Ph.D. degree in Electrical and Computer Engineering from the University of Trás-os-Montes e Alto Douro (UTAD) in 2024. He is currently a Researcher at INESC Technology and Science (INESC TEC) and an Invited Assistant Lecturer at the Instituto Superior de Engenharia do Porto (ISEP). His main research interests are perception systems, artificial intelligence, robotics and embedded systems.</p>
+  <p>Daniel Queirós da Silva was born in Ermesinde, Porto, Portugal, in 1997. He obtained the M.Sc. degree in Electrical and Computer Engineering from the Faculty of Engineering of the University of Porto (FEUP) in 2020, and the Ph.D. degree in Electrical and Computer Engineering from the University of Trás-os-Montes and Alto Douro (UTAD) in 2024. He is currently a Researcher at INESC Technology and Science (INESC TEC) and an Invited Assistant Lecturer at the School of Engineering of the Polytechnic of Porto (ISEP). His main research interests are perception systems, artificial intelligence, robotics and embedded systems.</p>
 </div>
 
 
