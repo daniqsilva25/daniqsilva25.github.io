@@ -60,8 +60,9 @@ extra:
 nav:
   - Home: index.md
   - Experience: experience.md
+  - Projects: projects.md
+  - R&D: research_development.md
   - Education: education.md
   - Conferences: events.md
   - Awards: awards.md
   - Supervising: supervising.md
-  - Projects: projects.md

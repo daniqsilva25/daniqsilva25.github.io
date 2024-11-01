@@ -40,7 +40,7 @@ ___
     </ul> -->
   </div>
   <div style="width: 200px; margin-left: 20px;">
-    <p>Feb. 2022 - Present</p>
+    <p>Feb. 2022 - July 2024</p>
   </div>
 </div>
 
