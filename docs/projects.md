@@ -43,9 +43,12 @@ ___
 ## M.Sc. Dissertation - <a href="https://hdl.handle.net/10216/132839" target="_blank">Computer Vision System for Tactode Programming</a>
 
 <div style="display: flex; align-items: center;">
-  <iframe src="https://www.youtube.com/embed/AexTj4I-ry8" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-  style="width: 480px; height: 480px; margin-right: 25px; border-radius: 10px;"></iframe>
+  <iframe
+        src="https://www.youtube.com/embed/AexTj4I-ry8"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="width: 480px; height: 480px; margin-right: 25px; border-radius: 10px; border:none;">
+  </iframe>
   <p style="flex: 1;">Tangible programming, when applied to robotics, makes programming more understandable and straightforward. This type of programming helps children developing their abilities of programming and computational thinking interactively and at earlier stages of their lives. From this idea came Tactode: a tangible programming system composed by puzzle-like pieces and a web application that aims robot programming. The target users of this system are children who, using the pieces, build a tangible code, take a picture of it and then can upload it to the application to be tested and executed on the robot later. The Tactode project is developed based on ArUco markers, meaning that each piece have a marker of this type that facilitates its detection and distinction in the tangible code. Therefore, this dissertation will continue this project through the development of a computer vision system capable of detecting and identifying each piece in photographed Tactode codes without depending on the ArUco markers.</p>
 </div>
 
@@ -57,8 +60,11 @@ ___
 ## The Maze in QVGA
 
 <div style="display: flex; align-items: center;">
-  <iframe src="https://www.youtube.com/embed/yIrrkUGHrhg" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-  style="width: 550px; height: 350px; margin-right: 25px; border-radius: 10px;"></iframe>
+  <iframe
+    src="https://www.youtube.com/embed/yIrrkUGHrhg"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="width: 550px; height: 350px; margin-right: 25px; border-radius: 10px; border:none;">
+  </iframe>
   <p style="flex: 1;">Maze game based of a Arduino Due controlling a QVGA interface for a visual screen.</p>
 </div>
