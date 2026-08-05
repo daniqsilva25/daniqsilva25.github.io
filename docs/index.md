@@ -42,7 +42,7 @@
   <li>
     <div style="display: flex;">
       <div style="flex: 1;">
-        Invited Assistant Lecturer at <a href="https://www.isep.ipp.pt" target="_blank">ISEP</a>, Porto, Portugal
+        Invited Adjunct Lecturer at <a href="https://www.isep.ipp.pt" target="_blank">ISEP</a>, Porto, Portugal
       </div>
       <div style="flex: 1;">
         <a href="mailto:dqs@isep.ipp.pt" target="_blank">dqs@isep.ipp.pt</a>
