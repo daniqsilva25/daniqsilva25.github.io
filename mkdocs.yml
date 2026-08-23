@@ -1,4 +1,4 @@
-site_name: Daniel Queirós da Silva, Ph.D.
+site_name: Daniel Queirós da Silva | Computer Vision & AI Engineer
 site_url: https://daniqsilva25.github.io/
 theme:
   name: material
@@ -59,10 +59,11 @@ extra:
 
 nav:
   - Home: index.md
-  - Experience: experience.md
+  - Work Experience: experience.md
+  - Technical Expertise: expertise.md
+  - Solutions: research_development.md
   - Projects: projects.md
-  - R&D: research_development.md
   - Education: education.md
-  - Conferences: events.md
+  - Conferences & Events: events.md
   - Awards: awards.md
-  - Supervising: supervising.md
+  - Thesis Supervision: supervising.md

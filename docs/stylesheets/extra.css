@@ -3,3 +3,126 @@
   --md-primary-fg-color--light: #00ABFF;
   --md-primary-fg-color--dark:  #003399;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(180px, 300px) minmax(0, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem rgb(0 51 153 / 18%);
+}
+
+.hero h2 {
+  margin-top: 0.25rem;
+  font-size: clamp(1.7rem, 4vw, 2.45rem);
+  line-height: 1.18;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--md-primary-fg-color);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.hero-actions { margin-top: 1.5rem; }
+.hero-actions .md-button { margin: 0 0.5rem 0.5rem 0; }
+
+.card-grid,
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2.5rem;
+}
+
+.portfolio-card,
+.role-card {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.portfolio-card h3,
+.role-card h3 { margin: 0.4rem 0 0.65rem; }
+.portfolio-card p,
+.role-card p { margin: 0; }
+.role-card > a { display: inline-block; margin-top: 1rem; font-weight: 600; }
+
+.card-icon {
+  color: var(--md-primary-fg-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.profile-links { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+.profile-links a {
+  border: 1px solid var(--md-primary-fg-color--light);
+  border-radius: 2rem;
+  padding: 0.35rem 0.8rem;
+}
+
+.profile-links span {
+  border: 1px solid var(--md-primary-fg-color--light);
+  border-radius: 2rem;
+  padding: 0.35rem 0.8rem;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: minmax(160px, 280px) minmax(0, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+}
+
+.project-card img,
+.project-card iframe { max-width: 100%; }
+.project-card img { border-radius: 0.6rem; }
+.project-meta { color: var(--md-default-fg-color--light); font-size: 0.85rem; }
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.experience-header p { margin: 0; }
+
+.embed {
+  display: block;
+  width: min(100%, 700px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero,
+  .project-card { grid-template-columns: 1fr; gap: 1.25rem; }
+  .profile-photo { width: min(220px, 100%); }
+
+  .md-typeset div[style*="display: flex"] {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .md-typeset div[style*="display: flex"] > div[style*="width:"] {
+    width: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .experience-header { align-items: flex-start; }
+  .experience-header { flex-direction: column; }
+}

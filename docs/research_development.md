@@ -1,64 +1,66 @@
-# Research and development
+# Solutions
+
+Selected perception and robotic systems developed for field operation, integration and validation.
 
 ## Multimodal perception for robotics in agricultural and forestry contexts
 
 ### Autonomous robotic system for eucalyptus stem selection
 
-Selective thinning is a crucial operation to reduce forest ignitable material, to control the eucalyptus species and maximize its profitability. The selection and removal of less vigorous stems allows the remaining stems to grow healthier and without competition for water, sunlight and nutrients. This operation is traditionally performed by a human operator and is time-intensive. This work simplifies selective thinning by removing the stem selection part from the human operator’s side using an end-to-end perception-to-action system.
+Selective thinning reduces forest fuel load, supports eucalyptus management and improves stand productivity. Selecting and removing less vigorous stems allows the remaining trees to grow with less competition for water, sunlight and nutrients. This time-intensive decision is traditionally made by an operator; this system automates the stem-selection stage through an end-to-end perception-to-action workflow.
 
 #### Computer vision algorithm
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1aaoR1yYdbwk1ajm-oTmdGzX2U8KKKSFo/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Computer vision algorithm demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 #### System integration
 <iframe
+    class="embed"
     src="https://www.youtube.com/embed/w4GPP8xFd88"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Eucalyptus stem-selection system integration demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 
-### Multispectral perception of forest tree trunk types (genus) using YOLOv5 and YOLOv8 models
+### Multispectral tree-trunk genus classification
 
-Detection and segmentation of two forest tree trunk types - Eucalyptus and Pine - using YOLOv5 and YOLOv8 Deep Learning models and considering 4-channel multispectral images (R,G,B,NIR).
+Detection and segmentation of eucalyptus and pine tree trunks using YOLOv5 and YOLOv8 deep-learning models trained on four-channel multispectral imagery (RGB + NIR).
 
 <iframe
+    class="embed"
     src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7232755011095584768?compact=1"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Multispectral tree trunk perception demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
-Github repository of YOLOv5 for training and testing on 4-channel images: [https://github.com/daniqsilva25/yolov5_4chan](https://github.com/daniqsilva25/yolov5_4chan)
+GitHub repository for YOLOv5 training and testing on four-channel images: [yolov5_4chan](https://github.com/daniqsilva25/yolov5_4chan)
 
-Github repository of YOLOv8 for training and testing on 4-channel images: [https://github.com/daniqsilva25/ultralytics_4chan](https://github.com/daniqsilva25/ultralytics_4chan)
+GitHub repository for YOLOv8 training and testing on four-channel images: [ultralytics_4chan](https://github.com/daniqsilva25/ultralytics_4chan)
 
 
-### Vegetation line clearing perception system and implement control
+### Vegetation-line clearing perception and implement-control system
 
 #### Perception system interface
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1tTPdHURPhbNwxpqYhY3IoqUWE17gxdVp/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Vegetation line clearing perception interface"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 #### System integration
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1j4SPFlRST0M8NWNtngKAbvEIQ21EM9ey/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Vegetation line clearing system integration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
@@ -67,51 +69,50 @@ Github repository of YOLOv8 for training and testing on 4-channel images: [https
 
 #### Multispectral perception
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1ygtUJGCvvpbslWktq08uqml2_Y3gYhKx/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Multispectral perception demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 #### 3D object segmentation
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1Olsd2XO0ReX9poM28DM4m8uUSdG8jFza/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="3D object segmentation demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
-#### Semanting mapping
+#### Semantic mapping
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1_dWl-cNkI9tfQE1qgGh5mDsP8VgBlXB1/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Semantic mapping demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 
 ### Visible and thermal forest tree trunk detection
 
-Detection of tree trunks in forest environment using different vision-based sensors (GoPro Hero6, FLIR M232, ZED Stereo, Allied Mako G-125, OAK-D) and several Deep Learning object detection models (SSD MobileNet, SSD Inception, SSD ResNet, SSDLite MobileDet, EfficientDet Lite, YOLOv4, YOLOv5, YOLOv7, YOLOR and DETR-ResNet) running inference on distinct hardware platforms - Raspberry Pi 4B (CPU), NVIDIA Jetson Nano (GPU), Google Coral USB Accelerator (TPU) and OAK-D's Intel Movidius Myriad X (VPU) - following an Edge-AI approach.
+Tree-trunk detection in forest environments using GoPro Hero6, FLIR M232, ZED Stereo, Allied Mako G-125 and OAK-D sensors. Models including SSD MobileNet, SSD Inception, SSD ResNet, SSDLite MobileDet, EfficientDet Lite, YOLOv4, YOLOv5, YOLOv7, YOLOR and DETR-ResNet were deployed across Raspberry Pi 4B (CPU), NVIDIA Jetson Nano (GPU), Google Coral USB Accelerator (TPU) and OAK-D’s Intel Movidius Myriad X (VPU) platforms.
 
 #### Visible tree trunk detection
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1l9LZ4d0YMGtUfAcHifPQ_1hFoqBVKltZ/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Visible tree trunk detection demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
 
 #### Thermal tree trunk detection
 <iframe
+    class="embed"
     src="https://drive.google.com/file/d/1nmRqQrE5h172MiK5Drw_WLccQ6ZqwuWk/preview"
-    height="400"
-    width="700"
-    style="border:none;"
+    title="Thermal tree trunk detection demonstration"
+    loading="lazy"
     allowfullscreen>
 </iframe>
-

@@ -1,51 +1,65 @@
-# Home
+# Daniel Queirós da Silva
 
-## Biography
+<section class="hero">
+  <img class="profile-photo" src="images/pic_Daniel.jpg" alt="Portrait of Daniel Queirós da Silva" width="300" height="300">
+  <div class="hero-content">
+    <p class="eyebrow">Computer Vision · Applied AI · Robotics</p>
+    <h2>Turning AI perception into reliable robotic systems for the field.</h2>
+    <p>Computer Vision &amp; Applied AI Engineer with 6+ years of experience building end-to-end perception and robotics solutions: from sensors and data pipelines to deep-learning models, edge deployment and field validation.</p>
+    <p class="hero-actions">
+      <a class="md-button md-button--primary" href="research_development/">Explore solutions</a>
+      <a class="md-button" href="https://drive.google.com/uc?export=download&amp;id=17IucbpMOOUCqfUVfx2C3Ee138PmDjsY8" rel="noopener noreferrer">Download CV</a>
+    </p>
+  </div>
+</section>
 
-<div style="display: flex; align-items: center;">
-  <img src="./images/pic_Daniel.jpg" alt="Daniel's picture" style="width: 300px; margin-right: 50px;">
-  <p>Daniel Queirós da Silva was born in Ermesinde, Porto, Portugal, in 1997. He obtained the M.Sc. degree in Electrical and Computer Engineering from the Faculty of Engineering of the University of Porto (FEUP) in 2020, and the Ph.D. degree in Electrical and Computer Engineering from the University of Trás-os-Montes and Alto Douro (UTAD) in 2024. He is currently a Researcher at INESC Technology and Science (INESC TEC) and an Invited Assistant Lecturer at the School of Engineering of the Polytechnic of Porto (ISEP). His main research interests are perception systems, artificial intelligence, robotics and embedded systems.</p>
+## Focus areas
+
+<div class="card-grid">
+  <article class="portfolio-card">
+    <span class="card-icon">01</span>
+    <h3>Perception systems</h3>
+    <p>Multimodal sensing, scene understanding and mapping for autonomous machines.</p>
+  </article>
+  <article class="portfolio-card">
+    <span class="card-icon">02</span>
+    <h3>Applied AI</h3>
+    <p>Detection, segmentation and robust deep-learning pipelines for challenging environments.</p>
+  </article>
+  <article class="portfolio-card">
+    <span class="card-icon">03</span>
+    <h3>Edge deployment</h3>
+    <p>From sensor acquisition and embedded software to optimised inference on edge hardware.</p>
+  </article>
 </div>
 
+## Industry-ready engineering
 
-## Scientific identifiers
+<div class="role-grid">
+  <article class="role-card">
+    <p class="eyebrow">Technical leadership</p>
+    <h3><a href="https://www.inesctec.pt" target="_blank" rel="noopener noreferrer">INESC TEC</a></h3>
+    <p>Technical lead for AI and robotic perception, taking systems from architecture and prototype to deployment with industrial partners.</p>
+    <a href="experience/">View work experience →</a>
+  </article>
+  <article class="role-card">
+    <p class="eyebrow">Delivery experience</p>
+    <h3>From concept to field</h3>
+    <p>5+ robotic R&amp;D demonstrators delivered in multidisciplinary teams, balancing accuracy, latency, compute and operational constraints.</p>
+    <a href="expertise/">Explore technical expertise →</a>
+  </article>
+</div>
 
-* CiênciaID: <a href="https://www.cienciavitae.pt/1416-6657-001C" target="_blank">1416-6657-001C</a>
-* ORCiD: <a href="https://orcid.org/0000-0001-9999-1550" target="_blank">0000-0001-9999-1550</a>
-* AuthenticusID: <a href="https://www.authenticus.pt/R-00J-KQ8" target="_blank">R-00J-KQ8</a>
-* Google Scholar: <a href="https://scholar.google.com/citations?user=0tMgDhAAAAAJ" target="_blank">0tMgDhAAAAAJ</a>
-* ResearcherID: <a href="https://www.webofscience.com/wos/author/record/AAA-3375-2021" target="_blank">AAA-3375-2021</a>
-* Scopus Author ID: <a href="http://www.scopus.com/inward/authorDetails.url?authorID=56196402300&partnerID=MN8TOARS" target="_blank">56196402300</a>
+## Profiles
 
+<div class="profile-links">
+  <a href="https://github.com/daniqsilva25" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="https://www.linkedin.com/in/daniel-queiros-silva" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="https://orcid.org/0000-0001-9999-1550" target="_blank" rel="noopener noreferrer">ORCID</a>
+  <a href="https://scholar.google.com/citations?user=0tMgDhAAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+  <a href="https://www.cienciavitae.pt/1416-6657-001C" target="_blank" rel="noopener noreferrer">Ciência Vitae</a>
+</div>
 
-## Other links
+## Contact
 
-* LinkedIn: <a href="https://www.linkedin.com/in/daniel-queiros-silva" target="_blank">daniel-queiros-silva</a>
-* GitHub: <a href="https://github.com/daniqsilva25" target="_blank">daniqsilva25</a>
-* ResearchGate: <a href="https://www.researchgate.net/profile/Daniel-Silva-143" target="_blank">Daniel-Silva-143</a>
-* SciProfile: <a href="https://sciprofiles.com/profile/danielqsilva" target="_blank">danielqsilva</a>
-
-
-## Contacts
-
-<ul>
-  <li>
-    <div style="display: flex;">
-      <div style="flex: 1;">
-        Researcher at <a href="https://www.inesctec.pt" target="_blank">INESC TEC</a>, Porto, Portugal
-      </div>
-      <div style="flex: 1;">
-        <a href="mailto:daniel.q.silva@inesctec.pt" target="_blank">daniel.q.silva@inesctec.pt</a>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div style="display: flex;">
-      <div style="flex: 1;">
-        Invited Adjunct Lecturer at <a href="https://www.isep.ipp.pt" target="_blank">ISEP</a>, Porto, Portugal
-      </div>
-      <div style="flex: 1;">
-        <a href="mailto:dqs@isep.ipp.pt" target="_blank">dqs@isep.ipp.pt</a>
-    </div>
-  </li>
-</ul>
+For engineering, product or technology collaboration, email <a href="mailto:danielqsilva97@gmail.com">danielqsilva97@gmail.com</a>.
