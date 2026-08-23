@@ -39,7 +39,7 @@
   <article class="role-card">
     <p class="eyebrow">Technical leadership</p>
     <h3><a href="https://www.inesctec.pt" target="_blank" rel="noopener noreferrer">INESC TEC</a></h3>
-    <p>Technical lead for AI and robotic perception, taking systems from architecture and prototype to deployment with industrial partners.</p>
+    <p>Technical lead in AI and robotic perception, taking systems from architecture and prototype to deployment with industrial partners.</p>
     <a href="experience/">View work experience →</a>
   </article>
   <article class="role-card">
@@ -50,16 +50,19 @@
   </article>
 </div>
 
-## Profiles
+## Connect
 
 <div class="profile-links">
   <a href="https://github.com/daniqsilva25" target="_blank" rel="noopener noreferrer">GitHub</a>
   <a href="https://www.linkedin.com/in/daniel-queiros-silva" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="https://drive.google.com/uc?export=download&amp;id=17IucbpMOOUCqfUVfx2C3Ee138PmDjsY8" rel="noopener noreferrer">CV</a>
+  <a href="mailto:danielqsilva97@gmail.com">Email</a>
+</div>
+
+### Research profiles
+
+<div class="profile-links">
   <a href="https://orcid.org/0000-0001-9999-1550" target="_blank" rel="noopener noreferrer">ORCID</a>
   <a href="https://scholar.google.com/citations?user=0tMgDhAAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
   <a href="https://www.cienciavitae.pt/1416-6657-001C" target="_blank" rel="noopener noreferrer">Ciência Vitae</a>
 </div>
-
-## Contact
-
-For engineering, product or technology collaboration, email <a href="mailto:danielqsilva97@gmail.com">danielqsilva97@gmail.com</a>.

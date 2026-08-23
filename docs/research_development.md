@@ -2,117 +2,120 @@
 
 Selected perception and robotic systems developed for field operation, integration and validation.
 
-## Multimodal perception for robotics in agricultural and forestry contexts
+## Autonomous robotic system for eucalyptus stem selection
 
-### Autonomous robotic system for eucalyptus stem selection
+**Challenge:**
+Selective thinning depends on an operator identifying which eucalyptus stems should be removed. This is time-consuming and difficult to perform consistently in dense, unstructured forest stands.
 
-Selective thinning reduces forest fuel load, supports eucalyptus management and improves stand productivity. Selecting and removing less vigorous stems allows the remaining trees to grow with less competition for water, sunlight and nutrients. This time-intensive decision is traditionally made by an operator; this system automates the stem-selection stage through an end-to-end perception-to-action workflow.
+**Approach:**
+Fuse RGB-Depth data with computer-vision models to detect stems, assess the local stand and select candidates for removal.
 
-#### Computer vision algorithm
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1aaoR1yYdbwk1ajm-oTmdGzX2U8KKKSFo/preview"
-    title="Computer vision algorithm demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+**Deployment:**
+Integrate the perception pipeline with the robotic platform so that selected stems become actionable targets for the thinning operation.
 
-#### System integration
-<iframe
-    class="embed"
-    src="https://www.youtube.com/embed/w4GPP8xFd88"
-    title="Eucalyptus stem-selection system integration demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+**Outcome:**
+An end-to-end perception-to-action system that reduces reliance on manual stem selection by providing consistent, repeatable candidates for selective-thinning operations.
 
+### Computer vision algorithm
 
-### Multispectral tree-trunk genus classification
+<iframe class="embed" src="https://drive.google.com/file/d/1aaoR1yYdbwk1ajm-oTmdGzX2U8KKKSFo/preview" title="Computer vision algorithm demonstration" loading="lazy" allowfullscreen></iframe>
 
-Detection and segmentation of eucalyptus and pine tree trunks using YOLOv5 and YOLOv8 deep-learning models trained on four-channel multispectral imagery (RGB + NIR).
+### System integration
 
-<iframe
-    class="embed"
-    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7232755011095584768?compact=1"
-    title="Multispectral tree trunk perception demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+<iframe class="embed" src="https://www.youtube.com/embed/w4GPP8xFd88" title="Eucalyptus stem-selection system integration demonstration" loading="lazy" allowfullscreen></iframe>
 
-GitHub repository for YOLOv5 training and testing on four-channel images: [yolov5_4chan](https://github.com/daniqsilva25/yolov5_4chan)
+---
 
-GitHub repository for YOLOv8 training and testing on four-channel images: [ultralytics_4chan](https://github.com/daniqsilva25/ultralytics_4chan)
+## Multispectral tree-trunk classification
 
+**Challenge:**
+Distinguish eucalyptus and pine tree trunks for forestry inventory and monitoring.
 
-### Vegetation-line clearing perception and implement-control system
+**Approach:**
+YOLOv5 and YOLOv8 detection and segmentation models trained on four-channel multispectral imagery (RGB + NIR).
 
-#### Perception system interface
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1tTPdHURPhbNwxpqYhY3IoqUWE17gxdVp/preview"
-    title="Vegetation line clearing perception interface"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+**Deployment:**
+Training and evaluation pipelines adapted to four-channel image data.
 
-#### System integration
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1j4SPFlRST0M8NWNtngKAbvEIQ21EM9ey/preview"
-    title="Vegetation line clearing system integration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+**Outcome:**
+Tree-trunk detection and classification across two forest genera.
 
+<iframe class="embed" src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7232755011095584768?compact=1" title="Multispectral tree trunk perception demonstration" loading="lazy" allowfullscreen></iframe>
 
-### 3D perception and semantic mapping
+[YOLOv5 four-channel repository](https://github.com/daniqsilva25/yolov5_4chan) · [YOLOv8 four-channel repository](https://github.com/daniqsilva25/ultralytics_4chan)
 
-#### Multispectral perception
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1ygtUJGCvvpbslWktq08uqml2_Y3gYhKx/preview"
-    title="Multispectral perception demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+---
 
-#### 3D object segmentation
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1Olsd2XO0ReX9poM28DM4m8uUSdG8jFza/preview"
-    title="3D object segmentation demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+## Vegetation-line clearing and implement control
 
-#### Semantic mapping
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1_dWl-cNkI9tfQE1qgGh5mDsP8VgBlXB1/preview"
-    title="Semantic mapping demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+**Challenge:**
+Perceive vegetation and coordinate implement control during line-clearing operations.
 
+**Approach:**
+Computer-vision perception integrated with the implement-control interface and robotic system.
 
-### Visible and thermal forest tree trunk detection
+**Deployment:**
+System integration validated through interface and field-operation demonstrations.
 
-Tree-trunk detection in forest environments using GoPro Hero6, FLIR M232, ZED Stereo, Allied Mako G-125 and OAK-D sensors. Models including SSD MobileNet, SSD Inception, SSD ResNet, SSDLite MobileDet, EfficientDet Lite, YOLOv4, YOLOv5, YOLOv7, YOLOR and DETR-ResNet were deployed across Raspberry Pi 4B (CPU), NVIDIA Jetson Nano (GPU), Google Coral USB Accelerator (TPU) and OAK-D’s Intel Movidius Myriad X (VPU) platforms.
+**Outcome:**
+A perception and control workflow for automated vegetation-line clearing.
 
-#### Visible tree trunk detection
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1l9LZ4d0YMGtUfAcHifPQ_1hFoqBVKltZ/preview"
-    title="Visible tree trunk detection demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+### Perception system interface
 
-#### Thermal tree trunk detection
-<iframe
-    class="embed"
-    src="https://drive.google.com/file/d/1nmRqQrE5h172MiK5Drw_WLccQ6ZqwuWk/preview"
-    title="Thermal tree trunk detection demonstration"
-    loading="lazy"
-    allowfullscreen>
-</iframe>
+<iframe class="embed" src="https://drive.google.com/file/d/1tTPdHURPhbNwxpqYhY3IoqUWE17gxdVp/preview" title="Vegetation line clearing perception interface" loading="lazy" allowfullscreen></iframe>
+
+### System integration
+
+<iframe class="embed" src="https://drive.google.com/file/d/1j4SPFlRST0M8NWNtngKAbvEIQ21EM9ey/preview" title="Vegetation line clearing system integration" loading="lazy" allowfullscreen></iframe>
+
+---
+
+## 3D perception and semantic mapping
+
+**Challenge:**
+Build spatially meaningful representations of forest environments for autonomous machines.
+
+**Approach:**
+Multispectral sensing, 3D object segmentation and semantic mapping.
+
+**Deployment:**
+Integrated perception components that produce structured environmental information for downstream robotic tasks.
+
+**Outcome:**
+3D and semantic representations that support mapping and scene understanding.
+
+### Multispectral perception
+
+<iframe class="embed" src="https://drive.google.com/file/d/1ygtUJGCvvpbslWktq08uqml2_Y3gYhKx/preview" title="Multispectral perception demonstration" loading="lazy" allowfullscreen></iframe>
+
+### 3D object segmentation
+
+<iframe class="embed" src="https://drive.google.com/file/d/1Olsd2XO0ReX9poM28DM4m8uUSdG8jFza/preview" title="3D object segmentation demonstration" loading="lazy" allowfullscreen></iframe>
+
+### Semantic mapping
+
+<iframe class="embed" src="https://drive.google.com/file/d/1_dWl-cNkI9tfQE1qgGh5mDsP8VgBlXB1/preview" title="Semantic mapping demonstration" loading="lazy" allowfullscreen></iframe>
+
+---
+
+## Visible and thermal tree-trunk detection
+
+**Challenge:**
+Maintain tree-trunk detection performance across sensor types and changing forest conditions.
+
+**Approach:**
+Visible and thermal cameras paired with SSD, EfficientDet, YOLO, YOLOR and DETR-based object-detection models.
+
+**Deployment:**
+Edge inference benchmarked across Raspberry Pi 4B, NVIDIA Jetson Nano, Google Coral USB Accelerator and OAK-D hardware.
+
+**Outcome:**
+Comparative evidence for selecting sensors, models and edge hardware for forestry-monitoring robots.
+
+### Visible tree-trunk detection
+
+<iframe class="embed" src="https://drive.google.com/file/d/1l9LZ4d0YMGtUfAcHifPQ_1hFoqBVKltZ/preview" title="Visible tree trunk detection demonstration" loading="lazy" allowfullscreen></iframe>
+
+### Thermal tree-trunk detection
+
+<iframe class="embed" src="https://drive.google.com/file/d/1nmRqQrE5h172MiK5Drw_WLccQ6ZqwuWk/preview" title="Thermal tree trunk detection demonstration" loading="lazy" allowfullscreen></iframe>
